@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+}
+
+.container {
+    background-color: silver;
+    border-radius: 5px;
+    box-shadow: 0 0 10000px blueviolet;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: red;
+}
+
